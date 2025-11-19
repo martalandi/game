@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta Charset= "UTF-8">
+<title>Casa Sabores</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<style>
+	
+body {
+    background-color: gold;
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+wrapper {
+    display: block;
+    margin: auto;
+    width: 700px;
+    padding: 20px;
+	box-sizing: border-box;
+}
+header {
+    text-align: center;
+    background-color: gold;
+    padding: 20px;
+    border-radius: 8px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2 em;
+    margin-top: 10px;
+}
+section {
+    vertical-align: top;
+    background-color: gold;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+u1 {
+    list-style: none;
+    padding: 100;
+}
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.gallery img {
+    margin: 10px auto;
+max-width:700px;
+    height: auto;
+    border-radius: 6px;
+	display: inline-flex;
+	flex-direction: column;
+}
+a {
+    color: #d84315;
+    text-decoration: none;
+}
+a: hover {
+    text-decoration: underline;
+}
+	.banner{
+		width: 100%;
+}
+.empanadas {
+    width: 100%; 
+    height: auto;
+}
+
+.gallery img {
+    width: 100%;
+	height: auto;
+}
+			img {width:100%;}
+	@media (min-width:1000px){
+		
+		wrapper{
+			width: 1000px;
+		}
+		section{
+			
+			width:50%;
+			margin-right:-4px;
+			display:inline-block;
+			vertical-align: top;
+			box-sizing: border-box;
+		}
+
+		
+		iframe{
+			width:100%;
+		}
+		
+	}
+	
+</style>
+</head>
+
+<body>
+<wrapper>
+<header>
+  <h1>Casa Sabores</h1>
+  <p>A taste of home whereveryou are</p>
+  <img src="argentinian-5.jpg" class="banner" alt=""/> </header>
+<section>
+  <h2>Welcome</h2>
+  <p>At Casa Sabores. We serve soulful dishes inspired by Argentine traditions and global flavors.
+    Come hungry, leave happy.</p>
+	<img src="empanadas-2.jpg" alt="empanadas on a plate" />
+</section>
+<section>
+  <video autoplay muted loop class="empanadas">
+    <source src="empanadas.mov" type="video/mp4">
+  </video>
+  <h2> Our Menu</h2>
+  <ul>
+    <li><strong>Empanadas,flaky, savory, unforgetable</strong> </li>
+    <li> <strong>milanesa</strong>-Crispy comfort on a plate</li>
+    <li><strong> dulce de leche acheesecake</strong> -sweet dreams guaranteed </li>
+  </ul>
+</section>
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="empanadas-1.jpg" alt="empanadas" /> 
+	</section>
+<section>
+  <h2>visit Us</h2>
+  <p><strong>123 Spring Street </strong> <br>
+    Wiliamstown, Ma</p>
+  <p><strong>Open:</strong> Wednesday-Sunday, 12pm-10pm</p>
+	<p><a href="mailto:hello@casasabores.com">hello@CasaSabores.com</a></p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.7264963903885!2d-73.20723792351848!3d42.7095116711626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e0ba133c99f487%3A0xfe3d440965190514!2s123%20Spring%20St%2C%20Williamstown%2C%20MA%2001267!5e0!3m2!1sen!2sus!4v1763407013450!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</wrapper>
+</body>
+</html>
